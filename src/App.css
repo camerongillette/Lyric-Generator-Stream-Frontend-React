@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#lyricTopic {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+#lyricTopic::placeholder {
+  font-weight:100;
+  letter-spacing:1px;
+  opacity: 0.5;
+  color: #888;
+  text-align: center; 
+}
+button {
+  font-weight:100;
+  letter-spacing:1px;
+}
+#generateButton {
+  width:50%;
+}
